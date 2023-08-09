@@ -59,17 +59,17 @@ public static int findSum(int num){
 	}
 	return sum;
 }
-public static int calculate(String myName, String friendName) {
-	int f1 = 0,f2 = 0, FRIENDS;
-	for(int i = 0;i<myName.length();i++){
-		f1 += (int)myName.charAt(i);
-	}
-	for(int i =0;i<friendName.length();i++){
-		f2 += (int)friendName.charAt(i);
-	}
+// public static int calculate(String myName, String friendName) {
+// 	int f1 = 0,f2 = 0, FRIENDS;
+// 	for(int i = 0;i<myName.length();i++){
+// 		f1 += (int)myName.charAt(i);
+// 	}
+// 	for(int i =0;i<friendName.length();i++){
+// 		f2 += (int)friendName.charAt(i);
+// 	}
 
-	FRIENDS = (f1 + f2) % 100;
-	return FRIENDS;
-}
+// 	FRIENDS = (f1 + f2) % 100;
+// 	return FRIENDS;
+// }
 	
 }
