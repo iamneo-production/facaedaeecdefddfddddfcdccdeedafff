@@ -11,6 +11,7 @@ class TestCalculate {
 		int result1 = MainController.calculate("John","Alice");
 		System.out.println(result1);
 		int result2= MainController.calculate("John","George");
+		System.out.println(result2);
 		assertEquals(77, result1);
 		assertEquals(61, result2);
 		try {
