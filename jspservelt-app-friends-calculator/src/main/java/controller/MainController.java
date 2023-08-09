@@ -1,14 +1,13 @@
 package controller;
-
 import java.io.IOException;
 import java.io.PrintWriter;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
 
 @WebServlet(urlPatterns= {"/jspservelt-app-friends-calculator/friends"})
 public class MainController extends HttpServlet {
@@ -59,6 +58,7 @@ public static int findSum(int num){
 	}
 	return sum;
 }
+
 public static int calculate(String myName, String friendName) {
 	int f1 = 0,f2 = 0, FRIENDS;
 	for(int i = 0;i<myName.length();i++){
