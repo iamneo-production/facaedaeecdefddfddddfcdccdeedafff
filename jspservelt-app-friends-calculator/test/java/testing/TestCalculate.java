@@ -4,8 +4,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 import controller.MainController;
-
-public class TestCalculate {
+class TestCalculate {
 
 	@Test
 	public void testCalculateMethod() {
